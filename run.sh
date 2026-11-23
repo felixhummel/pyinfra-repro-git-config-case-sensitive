@@ -13,5 +13,3 @@ rm -rf repo
 set -x
 pyinfra -y @local deploy.py
 pyinfra -y @local deploy.py # camelCase key changes again
-
-git -C repo config --local -l | grep hookspath
