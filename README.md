@@ -1,6 +1,5 @@
 # pyinfra git config compares lowercase
-Pyinfra compares git config keys against lowercase resulting in diffs even
-when there are no logical changes.
+Pyinfra compares git config keys against their lowercase values resulting in diffs even when there are no logical changes.
 
 To reproduce, run `./run.sh`.
 
